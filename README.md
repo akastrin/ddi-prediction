@@ -10,7 +10,7 @@ The code is written in AWK, Python and R. To use the code you will need:
 * XMLStarlet [http://xmlstar.sourceforge.net]
 * MySQL [https://www.mysql.com] or MariaDB [https://mariadb.org] server
 
-The `Makefile` file executes appropriate download scripts, Python and R files which process data. Before you run the code you should register on Drugbank Web site [https://www.drugbank.ca/]. This enables you to download appropriate files from Drugbank. In addition you should install UMLS and SemMedDB. Instructions to install UMLS can be found in the following link [https://www.nlm.nih.gov/research/umls/quickstart.html]. Next, go to SemMedDB site [https://skr3.nlm.nih.gov/SemMedDB/], download `PREDICATION` file and run `sql` script. Note that you should also insert appropriate credentials into `Makefile` (only in `ndfrt` and `semmeddb` directories).
+The `Makefile` file executes appropriate download scripts, Python and R files which process data. Before you run the code you should register on Drugbank Web site [https://www.drugbank.ca/]. This enables you to download appropriate files from Drugbank. In addition you should install UMLS and SemMedDB. Instructions to install UMLS can be found in the following link [https://www.nlm.nih.gov/research/umls/quickstart.html]. Next, go to SemMedDB site [https://skr3.nlm.nih.gov/SemMedDB/], download `PREDICATION` file and run `sql` script. Note that you should also insert appropriate credentials into `Makefile` (only in `drugbank`, `ndfrt`, and `semmeddb` directories).
 
 ## Using the code
 
