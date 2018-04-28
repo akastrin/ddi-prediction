@@ -6,7 +6,7 @@ api_key = '5dd5cf8a-bdc9-4d46-9c3d-10aadff89444'
 sparql.addCustomParameter('apikey', api_key)
 
 q = '''
-prefix umls: <http://bioportal.bioontology.org/ontologies/umls/> 
+PREFIX umls: <http://bioportal.bioontology.org/ontologies/umls/> 
 PREFIX skos: <http://www.w3.org/2004/02/skos/core#> 
 PREFIX ndfrt: <http://purl.bioontology.org/ontology/NDFRT/> 
 SELECT *

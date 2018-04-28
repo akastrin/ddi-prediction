@@ -1,7 +1,7 @@
 library(igraph)
 library(data.table)
 
-data <- fread("./data/drugbank_interactions.tsv", header = FALSE)
+data <- fread("../data/drugbank_interactions.tsv", header = FALSE)
 g <- graph_from_data_frame(d = data, directed = FALSE)
 
 # Number of vertices and edges

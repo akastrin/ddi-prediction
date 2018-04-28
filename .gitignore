@@ -1,0 +1,14 @@
+db/drugbank/data/
+db/drugbank/downloads/
+db/kegg/data/
+db/kegg/downloads/
+db/ndfrt/data/
+db/ndfrt/downloads/
+db/semmeddb/data/
+db/semmeddb/downloads/
+db/twosides/data/
+db/twosides/downloads/
+*.cfg
+*.Rhistory
+*.csv
+*.tsv

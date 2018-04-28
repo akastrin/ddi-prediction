@@ -1,7 +1,4 @@
-DB1 = semmeddb
-DB2 = umls
-USER = "username"
-PASS = "password"
+include config.cfg
 
 all: create_directory query_database drugbank_interactions prepare_topology analysis_prepare analysis_learning analysis_test
 

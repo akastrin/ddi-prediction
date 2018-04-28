@@ -12,8 +12,8 @@ def all_pairs(iterable):
 
 G = nx.read_edgelist("./data/drugbank_interactions.tsv", delimiter="\t", nodetype=str)
 
-partition = community.best_partition(G) 
-nx.set_node_attributes(G, 'community', partition) 
+partition = community.best_partition(G)
+nx.set_node_attributes(G, name='community', values=partition)
 
 ap = list(all_pairs(G.nodes()))
 

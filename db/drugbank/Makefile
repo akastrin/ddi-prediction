@@ -1,5 +1,4 @@
-USER = "username"
-PASS = "password"
+include config.cfg
 
 all: create_directory download_drugbank download_sider drugbank_interactions drugbank_atc drugbank_mesh drugbank_kegg parse_drugbank pubchem_map sider_map prepare_data prepare_topology analysis_prepare analysis_learning analysis_test analysis_evaluation
 
@@ -32,7 +31,7 @@ parse_drugbank:
 	python3 ./scripts/parse_drugbank.py
 
 pubchem_map:
-	python3 ./scripts/pubchem_map.py
+	python3 ./scripts/pubchem_map.py > ./data/drugbank2pubchem.tsv
 
 sider_map:
 	python3 ./scripts/sider_map.py

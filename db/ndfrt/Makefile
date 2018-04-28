@@ -1,6 +1,4 @@
-DB = rxnorm
-USER = "username"
-PASS = "password"
+include config.cfg
 
 all: create_directory query_database ndfrt_interactions drugbank_interactions prepare_topology analysis_prepare analysis_learning analysis_test
 
